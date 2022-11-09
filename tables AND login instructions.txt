@@ -1,5 +1,11 @@
 Tender Management System MySQL Tables :-
 
+To login you have to insert the details into the administrator table using mysql manually:-
+
+Login credentials:-
+username :- sudarshan@gmail.com
+password :- 1234
+
 create table Administrator(
 adminname varchar(20) not null,
 adminaddress varchar(20),
