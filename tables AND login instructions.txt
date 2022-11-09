@@ -13,6 +13,11 @@ adminemail varchar(30) not null,
 adminpassword varchar(8) not null
 )
 
+create table AdminLoginCredentials(
+email varchar(30) primary key,
+password varchar(8)
+);
+
 
 create table tender(
 tendid int primary key auto_increment,
